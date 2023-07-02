@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Listing</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="tabs">
+    <button class="active">Your Cards</button>
+    <button>All Cards</button>
+    <button>Blocked Cards</button>
+  </div>
+  
+  <div class="filters">
+    <label>Filter by Card Type:</label>
+    <select id="cardTypeFilter">
+      <option value="">All</option>
+      <option value="burner">Burner</option>
+      <option value="subscription">Subscription</option>
+    </select>
+  </div>
+
+  <div id="cardList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
